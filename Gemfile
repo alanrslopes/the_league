@@ -29,8 +29,13 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
+gem 'bcrypt', '~> 3.1.7'
+# Flexible authentication solution for Rails with Warden
+gem 'devise'
+#  Translations for the devise gem
+gem 'devise-i18n'
+# Repository for collecting Locale data for Ruby on Rails I18n
+gem 'rails-i18n'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
